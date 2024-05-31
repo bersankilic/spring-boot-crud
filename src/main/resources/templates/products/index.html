@@ -32,8 +32,8 @@
             <td th:text="${product.category}"></td>
             <td th:text="${product.price + 'TL'}"></td>
             <td>
-                <img th:serc="@{'/public/images/' + ${product.imageFileName}}"
-                     alt="..." width="10">
+                <img th:src="@{'/images/' + ${product.imageFileName}}"
+                     alt="..." width="150">
             </td>
             <td th:text="${product.createdAt.toString().substring(0,10)}"></td>
             <td style="white-space:nowrap">
