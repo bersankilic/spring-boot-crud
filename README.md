@@ -17,7 +17,7 @@ Bu proje, Spring Boot, Maven ve Thymeleaf kullanılarak oluşturulmuş basit bir
 ### Gereksinimler
 
 - Java 17 veya üstü
-- Maven 3.6.0 veya üstü
+- Maven 
 - MySQL veri tabanı
 
 ### Kurulum
