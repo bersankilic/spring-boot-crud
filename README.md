@@ -18,14 +18,14 @@ Bu proje, Spring Boot, Maven ve Thymeleaf kullanılarak oluşturulmuş basit bir
 
 - Java 17 veya üstü
 - Maven 3.6.0 veya üstü
-- Bir veritabanı (örneğin, MySQL, H2)
+- MySQL veri tabanı
 
 ### Kurulum
 
 1. Depoyu klonlayın:
     ```sh
-    git clone https://github.com/kullaniciadi/depo-adi.git
-    cd depo-adi
+    git clone https://github.com/bersankilic/spring-boot-crud.git
+    cd spring-boot-crud.git
     ```
 
 2. `src/main/resources/application.properties` dosyasındaki veritabanı yapılandırmasını düzenleyin:
